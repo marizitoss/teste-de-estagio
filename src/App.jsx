@@ -16,6 +16,7 @@ export default function App() {
 						<a href="#contact-specialist">{texts.especialist}</a>
 					</header>
 					<RegisterForm />
+					<Footer />
 				</div>
 				<div className="image-container">
 					<img
@@ -24,7 +25,6 @@ export default function App() {
 					/>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 }

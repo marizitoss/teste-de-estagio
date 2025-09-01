@@ -1,6 +1,9 @@
 .app-desktop {
   display: flex;
   font-family: "Inter", sans-serif;
+  width: 1920;
+  height: 1024;
+  gap: 32px;
 }
 .form-container {
   width: 704px;
@@ -14,7 +17,6 @@
   width: 912;
   height: 992;
   gap: 8px;
-  opacity: 1;
   padding: 72px;
   border-radius: 16px;
 }
@@ -34,7 +36,6 @@ header img {
   height: 28.57px;
 }
 header a {
-  font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 150%;
