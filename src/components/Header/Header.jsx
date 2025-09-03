@@ -4,7 +4,7 @@ const Header = () => {
 	return (
 		<HeaderContainer>
 			<Logo
-				src="./src/assets/Logotipos.png"
+				src="./src/assets/Logotipos.svg"
 				alt="Logo"
 			/>
 			<StyledLink href="/contato">Falar com um especialista</StyledLink>
