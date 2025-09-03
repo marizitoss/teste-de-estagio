@@ -119,7 +119,7 @@ export default function RegisterForm() {
 		<FormContent>
 			<Header />
 			<Icon
-				src="./src/assets/keyIcon.svg"
+				src="./src/assets/keyIcon.png"
 				alt="criar nova conta"
 			/>
 			<FormHeader>

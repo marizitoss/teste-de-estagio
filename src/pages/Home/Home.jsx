@@ -9,7 +9,7 @@ export default function Home() {
 			</FormSection>
 			<ImageSection>
 				<StyledImage
-					src="./src/assets/rightcontent_bg-image.svg"
+					src="./src/assets/rightcontent_bg-image.png"
 					alt="conteúdo a esquerda"
 				/>
 			</ImageSection>
