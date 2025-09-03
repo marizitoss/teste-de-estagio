@@ -109,7 +109,6 @@ export default function RegisterForm() {
 			);
 			setMessage(
 				response.status === 200 ? ' Formulário enviado com sucesso!' : ` Erro ao enviar. Código: ${response.status}`,
-				console.log(response.status),
 			);
 		} catch (error) {
 			setMessage(` Erro: ${error.response?.status || error.message}`);
