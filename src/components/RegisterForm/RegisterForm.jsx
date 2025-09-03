@@ -1,6 +1,7 @@
 import { Box, TextField } from '@mui/material';
 import axios from 'axios';
 import { useState } from 'react';
+import icon from '../../assets/keyIcon.svg';
 import { texts } from '../../constants/texts';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -119,7 +120,7 @@ export default function RegisterForm() {
 		<FormContent>
 			<Header />
 			<Icon
-				src="./src/assets/keyIcon.svg"
+				src={icon}
 				alt="criar nova conta"
 			/>
 			<FormHeader>

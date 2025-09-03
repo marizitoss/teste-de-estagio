@@ -1,3 +1,4 @@
+import content from '../../assets/rightcontent_bg-image.svg';
 import RegisterForm from '../../components/RegisterForm/RegisterForm';
 import { Container, FormSection, ImageSection, StyledImage } from './styles';
 
@@ -9,7 +10,7 @@ export default function Home() {
 			</FormSection>
 			<ImageSection>
 				<StyledImage
-					src="./src/assets/rightcontent_bg-image.svg"
+					src={content}
 					alt="conteúdo a esquerda"
 				/>
 			</ImageSection>
